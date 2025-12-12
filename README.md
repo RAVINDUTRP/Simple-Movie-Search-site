@@ -1,116 +1,35 @@
-# Movie Book
+# 🎬 Movie Book – Simple Movie Search site
 
-🎬 Movies Book – Simple Movie Search Web App
-RV Movies is a lightweight and beginner-friendly movie search app built using HTML, CSS, and JavaScript.
-It uses the OMDb API to fetch real-time movie details based on user input.
-Type any movie name, hit Search, and instantly see the poster + IMDb rating.
-Perfect starter project for anyone learning APIs and JavaScript DOM manipulation.
+Movie Book is a modern, interactive web app that allows users to search for their favorite movies and instantly view details including the movie title, poster, plot, director, and rating. Powered by the [OMDb API](http://www.omdbapi.com/), this app demonstrates dynamic content fetching and clean UI design using HTML, CSS, and JavaScript.
 
-🚀 Features
+---
+## **Features** 🚀
+- Search for movies by title.
+- View movie poster, title, plot, and director.
+- Dynamic display of movie rating.
+- Smooth animations for enhanced user experience.
+- Responsive and modern design with a dark theme.
 
+---
 
-🔍 Search movies by title
+## **Technologies Used** 🛠️
+- **HTML5** – Structure of the web app
+- **CSS3** – Styling and animations
+- **JavaScript** – API requests and DOM manipulation
+- **OMDb API** – Fetching movie data
 
+---
 
-🖼️ Displays real movie poster
+## **Screenshots** 📸
 
-
-⭐ Shows IMDb rating instantly
-
-
-⚡ Uses XMLHttpRequest for API calls
-
-
-📱 Clean and minimal UI
-
-
-🎯 Beginner-friendly code structure
-
-
-
-🛠️ Technologies Used
-
-
-HTML5
-
-
-CSS3
-
-
-JavaScript (Vanilla JS)
-
-
-OMDb API
+<img width="1470" height="804" alt="image" src="https://github.com/user-attachments/assets/19c09b80-8a4d-4ac8-933e-0948ad5207e2" />
+<img width="1470" height="801" alt="image" src="https://github.com/user-attachments/assets/ebe074ca-6be8-4c97-98ce-9c98485196ef" />
 
 
 
-📂 Project Structure
-/
-├── index.html
-├── index.css
-├── index.js
-└── README.md
-
-
-🔧 How It Works
-
-
-User enters a movie name.
-
-
-JavaScript sends a GET request:
-https://www.omdbapi.com/?apikey=YOUR_API_KEY&t=movie_name
 
 
 
-API returns JSON containing movie details.
-
-
-Poster + IMDb rating are displayed in the UI.
 
 
 
-▶️ Getting Started
-1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/RV-Movies.git
-
-2. Open the project
-Simply open index.html in your browser.
-3. Replace the API key (optional)
-If you want your own:
-let url = "https://www.omdbapi.com/?apikey=YOUR_KEY&t=" + movieName
-
-
-⭐ Improvements You Can Add (Future Upgrades)
-You can also list these in your README:
-
-
-✔ Dark/light mode
-
-
-✔ Display more details (genre, year, actors)
-
-
-✔ Search suggestions
-
-
-✔ Loading animation
-
-
-✔ Error message when movie not found
-
-
-✔ Replace XMLHttpRequest with fetch()
-
-
-
-📸 Screenshots (Optional Section)
-Add images of your UI here:
-![Screenshot](./assets/screenshot.png)
-
-
-🙌 Author
-Ravindu
-Simple movie app built for learning APIs + JS.
-
-If you want, I can also create a polished GitHub repo description, tags, or even shields badges (like version, license, tech stack).
